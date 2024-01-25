@@ -1,0 +1,16 @@
+{
+    "require": {
+        "fabpot/goutte": "^4.0",
+        "react/datagram": "1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Controller\\": "controller/",
+            "DAO\\": "DAO/",
+            "Model\\": "model/"
+        },
+        "files": [
+            "env.php"
+        ]
+    }
+}
